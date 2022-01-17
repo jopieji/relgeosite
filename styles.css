@@ -34,7 +34,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Navbar hover color change */
 li a:hover {
   background-color: #111;
 }
@@ -59,6 +59,7 @@ li a:hover {
 /* Make the images invisible by default */
 .Containers {
   display: none;
+  text-align: center;
 }
 
 /* forward & Back buttons */
@@ -67,7 +68,7 @@ li a:hover {
   position: absolute;
   top: 48%;
   width: auto;
-  margin-top: -23px;
+  margin-top: 150px;
   padding: 17px;
   color: grey;
   font-weight: bold;
@@ -79,13 +80,13 @@ li a:hover {
   -webkit-user-select: none;
 }
 
-/* Place the "forward button" to the right */
+/* forward button to the right */
 .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
 }
 
-/*when the user hovers,add a black background with some little opacity */
+/* arrow hover indicator */
 .Back:hover, .forward:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -102,7 +103,7 @@ li a:hover {
   text-align: center;
 }
 
-/* Numbering for images */
+/* numbering for images */
 .imagenum {
   color: #f2f2f3;
   font-size: 14px;
@@ -127,7 +128,7 @@ li a:hover {
   background-color: #717161;
 }
 
-/* Faint animation */
+/* fade animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.4s;
@@ -136,7 +137,7 @@ li a:hover {
 }
 
 .imgwidth {
-    width: 100%;
+    width: 50%;
 }
 
 @-webkit-keyframes fade {
