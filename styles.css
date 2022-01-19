@@ -40,6 +40,12 @@ li a:hover {
   background-color: #111;
 }
 
+p {
+  text-align: center;
+  color: #333;
+  padding-top: 250px;
+}
+
 .leftimg {
   padding-right: 500px;
   text-align: center;
@@ -48,6 +54,26 @@ li a:hover {
 .rightimg {
   padding-left: 500px;
   text-align: center;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  padding: 50px auto 50px auto;
+  text-align: left;
+  width:90%;
+}
+
+.rightimgalt {
+  float: right;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.leftimgalt {
+  float: left;
+  padding-right: 30px;
+  width: 50%;
 }
 
 .introp {
@@ -100,6 +126,15 @@ li a:hover {
 /* arrow hover indicator */
 .Back:hover, .forward:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+.picstextleft {
+  color: #333;
+  font-size: 16px;
+  padding: 15px 40px;
+  bottom: 0px;
+  width: 50%;
+  text-align: left;
 }
 
 /* captions */
