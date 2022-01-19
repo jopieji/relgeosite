@@ -40,6 +40,16 @@ li a:hover {
   background-color: #111;
 }
 
+.leftimg {
+  padding-right: 500px;
+  text-align: center;
+}
+
+.rightimg {
+  padding-left: 500px;
+  text-align: center;
+}
+
 .introp {
   padding: 5px 10%;
 }
