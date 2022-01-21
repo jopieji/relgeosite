@@ -44,12 +44,18 @@ h1 {
   text-align: center;
   color: #333;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 p {
   text-align: center;
   color: #333;
-  padding-top: 250px;
+  padding-top: 100px;
+}
+
+.essaytxt {
+  font-size: 18px;
+  padding: 100px;
 }
 
 .leftimg {
