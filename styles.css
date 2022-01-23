@@ -50,12 +50,17 @@ h1 {
 p {
   text-align: center;
   color: #333;
-  padding-top: 100px;
+  padding-top: 200px;
+}
+
+.centeressay {
+  width: 750px;
+  margin: auto;
 }
 
 .essaytxt {
   font-size: 18px;
-  padding: 100px;
+  padding: 20px;
 }
 
 .leftimg {
